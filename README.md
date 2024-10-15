@@ -4,8 +4,13 @@ ReInterview is a job search platform that connects employers and job seekers. Em
 
 # Features
 
-- **For Employers:** - Add new job listings - Edit and manage existing job postings
-- **For Jobseekers:** - Browse live job listings - Search and filter job opportunities - Apply for jobs directly through the platform
+- **For Employers:**
+  - Add new job listings
+  - Edit and manage existing job postings
+- **For Jobseekers:**
+  - Browse live job listings
+  - Search and filter job opportunities
+  - Apply for jobs directly through the platform
 
 ## Technologies Used:
 
@@ -29,64 +34,45 @@ Follow these steps to set up and run the application locally.
 
 1.  **Clone the repository:**
 
-    bash
-
-    Copy code
-
-    `git clone https://github.com/yourusername/reinterview.git
-cd reinterview`
+```
+git clone https://github.com/Abhijit0303/reinterview.git
+cd reinterview
+```
 
 2.  **Install dependencies:**
 
     Using npm:
 
-    bash
-
-    Copy code
-
-    `npm install`
+    ```npm install```
 
     Or using yarn:
 
-    bash
-
-    Copy code
-
-    `yarn install`
+    ```yarn install```
 
 3.  **Set up environment variables:**
 
     Create a `.env` file in the root directory of the project and add the following variables:
+```
+VITE_SUPABASE_URL=<your_supabase_url>
+VITE_SUPABASE_ANON_KEY=<your_supabase_anon_key>
+VITE_CLERK_PUBLISHABLE_KEY=<your_cleark_publishabale_key>
+```
 
-    plaintext
-
-    Copy code
-
-    `REACT_APP_CLERK_FRONTEND_API=<your_clerk_frontend_api>
-REACT_APP_SUPABASE_URL=<your_supabase_url>
-REACT_APP_SUPABASE_ANON_KEY=<your_supabase_anon_key>`
-
-    Replace `<your_clerk_frontend_api>`, `<your_supabase_url>`, and `<your_supabase_anon_key>` with your actual Clerk and Supabase credentials.
+     Replace `<your_clerk_frontend_api>`, `<your_supabase_url>`, and `<your_supabase_anon_key>` with your actual Clerk and Supabase credentials.
 
 4.  **Start the development server:**
 
-    bash
-
-    Copy code
+    Using npm:
 
     `npm run dev`
 
     Or using yarn:
 
-    bash
-
-    Copy code
-
     `yarn dev`
 
 5.  **Open your browser:**
 
-    Navigate to `http://localhost:3000` to view the application.
+    Navigate to `http://localhost:5173` to view the application.
 
 ## Contributing
 
