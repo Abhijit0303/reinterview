@@ -15,7 +15,7 @@ ReInterview is a job search platform that connects employers and job seekers. Em
 ## Technologies Used:
 
 - **Frontend:** ReactJS
-- **UI Library:** shaadcn/ui
+- **UI Library:** shadcn/ui
 - **Authentication:** Cleark
 - **Backend:** Supabase
 
@@ -43,15 +43,16 @@ cd reinterview
 
     Using npm:
 
-    ```npm install```
+    `npm install`
 
     Or using yarn:
 
-    ```yarn install```
+    `yarn install`
 
 3.  **Set up environment variables:**
 
     Create a `.env` file in the root directory of the project and add the following variables:
+
 ```
 VITE_SUPABASE_URL=<your_supabase_url>
 VITE_SUPABASE_ANON_KEY=<your_supabase_anon_key>
@@ -86,7 +87,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 - [Vite](https://vite.dev/)
 - [ReactJS](https://react.dev/)
-- [ShadCn/UI](https://ui.shadcn.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
 - [Clerk](https://clerk.com/)
 - [Supabase](https://supabase.com/)
 
